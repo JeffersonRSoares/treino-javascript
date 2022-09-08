@@ -1,30 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treino Javascript</title>
+
+    <title>Treino JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <style>
+        .nav-link {
+            color: aliceblue;
+        }
+
+        .active {
+            color: azure;
+        }
+    </style>
 </head>
+
 <body>
-    <img src="Imagens/banner-voeairlines.png">
-    <ul>
+    <div class="container">
+        <nav class="navbar fixed-top text-light" style="background-color:#101E59;">
+            <div class="container-fluid text-light">
+                <a class="navbar-brand text-light" href="#">VOE - Treinamento</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" style="background-color:#101E59;" tabindex="-1"
+                    id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Lista de Exercícios</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-light ">
+                            <li class="nav-item">
+                                <a class="nav-link active .text-secondary" aria-current="page"
+                                    href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ex1_1.html">Exercício 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ex1_2.html">Exercício 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ex1_3.html">Exercício 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ex1_4.html">Exercício 4</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="ex1_5.html">Exercício 5</a>
+                            </li>
 
- <li> <a href="ex1_1.html">Exercício 1 </a><label> Usando Alert e console.log</label></li>
- <li> <a href="ex1_2.html">Exercício 2 </a><label>Entrada de Dados - prompt</label></li>
- <li> <a href="ex1_3.html">Exercício 3 </a><label>Entrada de Dados - prompt</label></li>
- <li> <a href="ex1_4.html">Exercício 4 </a><label>Entrada de Dados - prompt</label></li>
- <li> <a href="ex1_5.html">Exercício 5 </a><label>Entrada de Dados - prompt</label></li>
- <li> <a href="ex1_6.html">Exercício 6 </a><label>Entrada de Dados - prompt</label></li>
- <li> <a href="ex1_7.html">Exercício 7 </a><label>Entrada de Dados - prompt</label></li>
- <li> <a href="ex1_8.html">Exercício 8 </a><label>Entrada de Dados - prompt</label></li>
- <li> <a href="ex1_9.html">Exercício 9 </a><label>Entrada de Dados - prompt</label></li>
- <li> <a href="ex1_10.html">Exercício 10 </a><label>Entrada de Dados - prompt</label></li>
- <li></li>  
-    </ul>
-    <footer>
-         VoeAirlines &copy; 2022 - Treinamento JavaScript
-     </footer>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <ul>
+
+        </ul>
+        <img src="imagens/banner-voeairlines.png" width="100%">
+        <footer>
+            VoeAirlines &copy; 2022 - Treinamento Intesivo JavaScript
+        </footer>
+
+    </div>
 </body>
-</html>
 
+</html>
